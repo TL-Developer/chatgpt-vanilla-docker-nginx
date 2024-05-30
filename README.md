@@ -1,5 +1,5 @@
 # Run project
-```./start.sh```
+```sh ./start.sh```
 
 # Docker Build
 ```docker build -t react-app .```

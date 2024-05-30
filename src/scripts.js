@@ -33,8 +33,6 @@ const chatGPTTemplate = (responseGPT) => (`
 const OPENAI_API_URL = "https://api.openai.com/v1/chat/completions";
 const OPENAI_API_KEY = "<api key>";
 
-console.log('process.env.OPENAI_API_KEY', process.env.OPENAI_API_KEY);
-
 // SET DO MODELO SELECIONADO PARA UTILIZAR NO OPENAPI
 let model = elementsFactory.$selectModel.value;
 
