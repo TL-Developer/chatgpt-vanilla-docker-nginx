@@ -31,7 +31,7 @@ const chatGPTTemplate = (responseGPT) => (`
 
 // CONSTANTES QUE PODEM SER GRAVADOS EM VARIAVEL DE AMBIENTE COM A URL DO OPENAPI E APIKEY
 const OPENAI_API_URL = "https://api.openai.com/v1/chat/completions";
-const OPENAI_API_KEY = "<api key>";
+const OPENAI_API_KEY = "<YOUR_OPENAI_API_KEY>";
 
 // SET DO MODELO SELECIONADO PARA UTILIZAR NO OPENAPI
 let model = elementsFactory.$selectModel.value;
